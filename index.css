@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  background-color: #E7E3D8;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #152F04;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+h2{
+  color: #152F04;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+h3{
+  
+}
+
+p{
+  margin-top: 10px;
+  border-top: 3px solid #152F04;;
+  font-size: 20px;
+  color: #152F04;
+  font-weight: bold;
+}
+
+img {
+  max-width: 1000px; 
+  width: 100%;       
+  
+  display: block;
+  margin: 20px auto;
+  border-radius: 100px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 10px; /* Adiciona espaço entre os links */
+  color: #152F04;
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Adiciona sublinhado quando passa o mouse */
+}
+
+.botao-icone {
+  display: inline-block; /* Permite definir padding e margin */
+  padding: 15px;         /* Espaçamento interno */
+  margin: 10px;          /* Espaçamento externo */
+  
+  background-color: #152F04; /* Cor de fundo (a mesma do seu título) */
+  color: #E7E3D8;            /* Cor do ícone (a mesma do fundo do site) */
+  
+  border-radius: 100%;      /* Deixa o botão perfeitamente redondo */
+  text-decoration: none;   /* Remove o sublinhado do link */
+  
+  position: absolute; /* Permite posicionar o botão */
+  top: 10px;          /* Distância do topo */
+  left: 10px;         /* Distância da esquerda */
+}
+
+.botao-icone:hover {
+  background-color: #3a6d1a; 
+  transform: scale(1.2);   
+  transition: all 0.2s;     
+}
